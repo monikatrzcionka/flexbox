@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: red;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    border: 3px solid green;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+    color: crimson;
+    margin: 10px;
+    /* text-align: center;
+    line-height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

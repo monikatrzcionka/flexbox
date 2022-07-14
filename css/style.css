@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid green;
+    height: 300px;
+    margin-bottom: 2%;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container2 {
+    display: flex;
+    gap: 3px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 2px solid green;
+    height: 300px;
+     
+}
+
+p:nth-of-type(2) {
+    order: -1;
+}
+
+p:nth-of-type(4) {
+    align-self: flex-end;
+}
+
+p:nth-of-type(5) {
+    align-self: center;
+}
